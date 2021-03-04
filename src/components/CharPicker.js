@@ -14,7 +14,7 @@ const CharPicker = props => {
             setIsLoading(false)
 
             if (!response.ok) {
-            throw new Error('Failed to fetch.');
+            throw new Error('Failed.');
             }
             return response.json();
         })
